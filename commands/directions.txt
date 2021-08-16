@@ -1,0 +1,4 @@
+1. Create index (./create_index.sh)
+2. Define mapping (./define_mapping.sh)
+3. Index document (./index_image.py img.jpg)
+4. Query document (./match_image.py img.jpg)

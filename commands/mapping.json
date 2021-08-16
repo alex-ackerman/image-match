@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "title": {
+      "type": "text"
+    },
+    "image_vec": {
+      "type": "elastiknn_dense_float_vector",
+      "elastiknn": {
+        "dims": 32,
+        "model": "lsh",
+        "similarity": "cosine",
+        "L": 32,
+        "k": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "query": {
+    "elastiknn_nearest_neighbors": {
+      "field": "test_vec",
+      "vec": {
+        "values": [48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48, 48]
+      },
+      "model": "permutation_lsh",
+      "similarity": "cosine",
+      "candidates": 10
+    }
+  }
+}
